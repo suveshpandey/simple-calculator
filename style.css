@@ -87,27 +87,27 @@ form input.equal{
     .calculator form input:hover{
     color: rgb(88, 231, 48);
     
-    }
-    
-    form .display{
-        display: flex;
-        justify-content: flex-end;
-        margin: 20px 0;
-    }
-    form .display input{
-        text-align: right;
-        flex: 1;
-        font-size: 45px;
-        box-shadow: none;
-    }
-    form input.equal{
-        width: 104px;
-    }
-    form input.operator{
-        color: #33ffd8;
-    }
-    form input.equal{
-        color: rgb(4, 255, 0);
-    }
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 104px;
+}
+form input.operator{
+    color: #33ffd8;
+}
+form input.equal{
+    color: rgb(4, 255, 0);
+}
 
 }
